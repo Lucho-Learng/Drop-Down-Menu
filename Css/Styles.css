@@ -1,0 +1,56 @@
+body {
+    background: url("../Assets/Img/Australia.png") no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    color: #ffffff;
+   
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+   
+}
+
+.active {
+    color: green;
+
+}
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+    border-radius: 5px;
+    
+    
+}
+   
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    /*background-color: indigo;*/
+    border-radius: 5px;
+    
+}
+
+ul li a:hover {
+    background-color: rgb(26, 156, 8);
+    
+}
+ul li ul li {
+    display: none;
+    
+    
+}
+ul li:hover ul li {
+    display: block;
+    
+}  
